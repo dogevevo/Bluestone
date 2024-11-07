@@ -7881,7 +7881,7 @@ ul.slick-dots li:after {
 
 .contact-form label {
     position: absolute;
-    top: -4px;
+    /* top: -4px; */
     left: 0;
 }
 

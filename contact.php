@@ -87,7 +87,7 @@
                         </div>
                         <div class="col-lg-6">
                             <!--====== Contact Form Wrapper ======-->
-                            <div class="contact-form-wrapper mb-50 wow fadeInRight">
+                            <div class="contact-form-wrapper mb-50 wow fadeInRight" style="height: 700px;">
                                 <form method="post" action="mail.php" class="contact-form">
                                     <div class="form_group">
                                         <label><i class="far fa-user"></i></label>
@@ -109,9 +109,23 @@
                                         <label><i class="far fa-pen-fancy"></i></label>
                                         <textarea class="form_control" rows="3" placeholder="Message" name="message"></textarea>
                                     </div>
-                                    <div class="form_group">
+
+                                    <!-- Checkbox de términos y condiciones -->
+                                    <div class="form_group ">
+                                        
+                                        <input type="checkbox" id="terms" name="terms" required>
+                                        <label for="terms" class="ml-4 mb-2">
+                                            I agree to terms & conditions and privacy policy provided by HighLevel. By providing my phone
+                                            number, I agree to receive text messages from Blue Stone Painting. You can SMS opt out at
+                                            anytime by responding
+                                        </label>
+                                        
+                                    </div>
+
+                                    <div class="form_group" style="top: 170px">
                                         <button class="main-btn primary-btn">Send Message</button>
                                     </div>
+
                                 </form>
                             </div>
                         </div>
@@ -185,6 +199,14 @@
             width:100%;
             height:670px;
             margin-top:-180px;
+        }
+
+
+        .check-R{
+            position: absolute;
+            top: 0;
+            right: 20px;
+
         }
 
     </style>

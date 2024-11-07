@@ -23,38 +23,40 @@
 }
 
 .term-text p {
-    font-size: 22px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .term-text h4 {
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 10px;
     margin-top: 50px;
     color: #000;
+}
+
+.title-temrs{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 </style>
 
 
 <section class="bg-image header-terms" style="background-color: #00000000;">
-    <div class="">
+    <div class="title-temrs">
 
-        <h2>TERMS OF USE PAGE</h2>
+        <h2 style="color: #fff">TERMS OF USE PAGE</h2>
 
     </div>
 </section>
 
 
-<div class="">
-    <div class="">
-        <h2>TERMS OF USE PAGE</h2>
-    </div>
-</div>
-
-<div class="container">
+<div class="container mb-10 mt-30">
     <div class="row">
         <div class="col-md-12 term-text ">
             <p>Welcome to Blue Stone Painting. By using our website and services, you

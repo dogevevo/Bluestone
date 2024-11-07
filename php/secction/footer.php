@@ -62,6 +62,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+a:hover{
+    color: #008B8B;
+}
 </style>
 	
 
@@ -159,7 +163,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 secction-terms">
                    <ul class="terms-list ">
                         <li><a href="terms.php">TERMS OF USE PAGE</a></li>
-                        <li><a href="">PRIVACY POLICY</a></li>
+                        <li><a href="privacy.php">PRIVACY POLICY</a></li>
                    </ul>
                 </div>
             </div>

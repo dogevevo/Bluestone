@@ -1,7 +1,7 @@
 <?php 
 
     // Only process POST reqeusts.
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") { 
         // Get the form fields and remove MORALspace.
         $name = strip_tags(trim($_POST["name"]));
 	    $name = str_replace(array("\r","\n"),array(" "," "),$name);
